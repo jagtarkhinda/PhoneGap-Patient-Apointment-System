@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/signin.css">
+    <title>Hello World</title>
+
+
+
+</head>
+
+<body>
+    <div class="main_heading">
+        <p class="heading_para">HELLO-DOC</p>
+        <p class="para_right">App for Clinic Patients</p>
+
+    </div>
+
+    <h3 id="main_welcome" class="top_header"></h3>
+    <div id="buttons">
+
+        <ul class="nav_top">
+            <tr>
+                <li> <button class="btn btn-md btn-danger btn-block" id="btnapp">Book Apt</button></li>
+                <li><button class="btn btn-md btn-danger btn-block" id="btnview">View Apt</button></li>
+                <li><button class="btn btn-md btn-danger btn-block" id="btnappchange">Change Apt</button></li>
+            </tr>
+        </ul>
+    </div>
+    <div id=bookAppointment>
+        <div class="form-signin">
+            <h5 style="text-decoration: underline;">Appointment booking</h5>
+            <label>Select Doctor</label><br>
+            <select name="docs" id="alldocs">
+                <option value="Dr John">Dr John</option>
+                <option value="Dr Lalita">Dr Lalita</option>
+                <option value="Dr MD">Dr MD</option>
+            </select>
+            <br><br>
+            <label>Select Date</label><br>
+            <input type="date" id="sel_date"><br><br>
+            <button id="doctiming">Get Timings</button>
+            <br>
+            <br>
+            <div id="fetch_time">
+                <label>Available Schedule</label>
+                <select id="show_timings">
+                </select><br><br>
+                <button class="btn btn-lg btn-primary btn-block" id="bookButton">Confirm</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="viewappointmentss">
+        <table id="apptable" border="1px solid white;">
+        </table>
+    </div>
+
+    <div id="changeapp">
+        <div class="form-signin">
+        <h5 style="text-decoration: underline;">Change Appointment</h5>
+        <label>Enter Appointment Id</label>
+        <input id="appid">
+        <br><br>
+        <label>Select new Date</label><br>
+        <input type="date" id="sel_date_again"><br><br><br>
+        <button id="submit_apt">Submit</button>
+        <br><br>
+       <div id="after_date">
+        <label>Available Schedule</label>
+        <select id="show_timings_again">
+        </select><br><br>
+        <button class="btn btn-lg btn-danger btn-block" id="changetime">Confirm Change</button>
+        </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

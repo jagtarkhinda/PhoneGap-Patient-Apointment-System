@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/signin.css">
+    <title>Hello World</title>
+
+</head>
+
+<body>
+
+    <div class="main_heading">
+        <p class="heading_para">HELLO-DOC</p>
+        <p class="para_right">App for Clinic Patients</p>
+    </div>
+    <h3 class="top_header">Admin Panel</h3>
+
+    <div style="text-align: center;">
+        <ul class="nav_top">
+            <li> <button class="btn btn-md btn-success btn-block" id="view_apt">View APT</button></li>
+            <li><button class="btn btn-md btn-success btn-block" id="view_pat">View Patients</button></li>
+        </ul>
+        <ul class="nav_top">
+            <li><button class="btn btn-md btn-danger btn-block" id="change_apt">Change APT</button></li>
+            <li><button class="btn btn-md btn-danger btn-block" id="remove_pat">Remove Patient</button></li>
+            <li><button class="btn btn-md btn-danger btn-block" id="delete_apt">Delete APT</button></li>
+            <li><button class="btn btn-md btn-danger btn-block" id="create_apt">Create APT</button></li>
+        </ul>
+    </div>
+    <div id="man_viewappointmentss">
+        <table id="man_apptable" border="1px solid white;">
+        </table>
+    </div>
+
+    <div id="man_viewPatients">
+        <table id="man_pattable" border="1px solid white;">
+        </table>
+    </div>
+
+    <div id="man_createapt">
+        <div class="form-signin">
+            <h5>Create appointment</h5>
+            <label>Enter Patient Id</label><br>
+            <input type="number" id="man_patient_id"><br>
+            <label>Select Doctor</label><br>
+            <select name="docs" id="man_alldocs">
+                <option value="Dr John">Dr John</option>
+                <option value="Dr Lalita">Dr Lalita</option>
+                <option value="Dr MD">Dr MD</option>
+            </select>
+            <br><br>
+            <label>Select Date</label>
+            <input type="date" id="man_select_date">
+            <button id="man_doctiming">Get Timings</button>
+            <br>
+            <br>
+            <div id="man_fetch_time">
+                <label>Available Schedule</label>
+                <select id="man_show_timings">
+                </select>
+                <button class="btn btn-lg btn-primary btn-block" id="createButton">Confirm</button>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <div id="man_changeapp">
+        <div class="form-signin">
+        <h5 style="text-decoration: underline;">Change appointment</h5>
+        <label>Enter Appointment Id</label>
+        <input id="man_appid">
+        <br><br>
+        <label>Select new Date</label><br>
+        <input type="date" id="man_sel_date_again"><br><br><br>
+        <button id="man_submit_apt">Submit</button>
+        <br><br>
+        <div id="man_after_date">
+            <label>Available Schedule</label>
+            <select id="man_show_timings_again">
+            </select><br><br>
+            <button class="btn btn-lg btn-danger btn-block" id="man_changetime">Confirm Change</button>
+        </div>
+        </div>
+    </div>
+
+  
+    <div id="man_remove_pat">
+        <div class="form-signin">
+        <h5 style="text-decoration: underline;">Remove Patient</h5>
+        <label>Enter Patient Id</label>
+        <input id="man_patid"><br><br>
+        <button id="man_remove">Remove</button>
+        </div>
+    </div>
+
+    <div id="man_delete_apt">
+      <div class="form-signin">
+       <h5 style="text-decoration: underline;">Delete Appointment</h5>
+        <label>Enter Appointment Id</label>
+        <input id="del_apt_id"><br><br>
+        <button id="del_apt_sub">Delete Apt</button>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+
+
+</html>

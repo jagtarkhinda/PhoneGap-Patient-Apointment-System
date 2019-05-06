@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/signin.css">
+    <title>Hello World</title>
+
+
+
+</head>
+
+<body>
+    
+    <div class="main_heading">
+        <p class="heading_para">HELLO-DOC</p>
+        <p class="para_right">App for Clinic Patients</p>
+        
+    </div>
+
+    <div class="text-center">
+
+        <div class="form-signin">
+            <h6 style="color: white;">Please Register</h6>
+            <label class="sr-only">First Name</label>
+            <input type="text" id="upfirst"  class="form-control" placeholder="First Name" required>
+
+            <label class="sr-only">Last Name</label>
+            <input type="text" id="uplast"  class="form-control" placeholder="Last Name" required>
+
+            <label class="sr-only">Email address</label>
+            <input type="email" id="upEmail"  class="form-control" placeholder="Email address" required autofocus>
+
+            <label class="sr-only">Password</label>
+            <input type="password" id="upPassword"  class="form-control" placeholder="Password" required>
+
+            <label class="sr-only">SIN number</label>
+            <input type="number" id="upsin" class="form-control"  placeholder="SIN number" required>
+
+            <label class="sr-only">Age</label>
+            <input type="number" id="upage" class="form-control"  placeholder="Age" required>
+
+            <label class="sr-only">Gender</label>
+            <input type="text" id="upgender" class="form-control"  placeholder="Gender" required>
+
+            <label class="sr-only">Diseases</label>
+            <input type="text" id="updisease" class="form-control"  placeholder="Disease to consider" required>
+
+            <label class="sr-only">Address</label>
+            <input type="text" id="upaddress" class="form-control"  placeholder="Address" required>
+            <br>
+            <button class="btn btn-lg btn-primary btn-block" id="signupButton">Sign up</button>
+            <br>
+            <p style="border: 1px solid white;padding: 5px;color:white;">Already a User? <br><a style="color:white;font-weight: 500;" href="index.html">Login here</a></p>
+        </div>
+    </div>
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>

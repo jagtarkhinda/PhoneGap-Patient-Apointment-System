@@ -1,0 +1,4 @@
+#Mon Nov 19 18:37:39 EST 2018
+base.0=C\:\\hellodoc\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

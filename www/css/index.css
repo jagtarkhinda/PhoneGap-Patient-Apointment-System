@@ -1,0 +1,129 @@
+body {
+    background-color: #B00020;
+}
+
+.top_header {
+    /*    margin-top: 20px;*/
+    color: white;
+    padding: 20px;
+}
+
+.main_heading {
+/*    border-bottom: 1px solid white;*/
+    border-left: 2px solid #B00020;
+    border-right: 2px solid #B00020 ;
+    border-bottom: 2px solid white ;
+    text-align: left;
+    background-color: #212121;
+    color: aliceblue;
+    padding: 20px;
+
+}
+
+.heading_para {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.para_right {
+    font-size: 20px;
+}
+
+#bookAppointment {
+    color: white;
+/*    text-align: center;*/
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+#apptable {
+    padding: 5px;
+    width: 100%;
+}
+
+#viewappointmentss {
+    color: white;
+    text-align: center;
+    border-bottom: 5px solid white;
+}
+
+#man_viewappointmentss {
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+#man_viewPatients {
+    color: white;
+    background-color: #004D40;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+#man_createapt{
+    border-top: 1px solid white;
+    color:white;
+}
+
+#man_apptable {
+    padding: 5px;
+    width: 100%;
+}
+
+#man_pattable {
+    padding: 5px;
+    width: 100%;
+}
+
+#changeapp {
+    color: white;
+/*    text-align: center;*/
+    border-bottom: 5px solid white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#man_changeapp {
+    color: white;
+/*    text-align: center;*/
+    background-color: #004D40;
+    border-top: 1px solid white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#man_delete_apt{
+    border-top:1px solid white;
+     color: white;
+/*    text-align: center;*/
+    background-color: #004D40;
+    border-top: 1px solid white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#man_remove_pat{
+     color: white;
+/*    text-align: center;*/
+    border-top: 1px solid white;
+    
+/*    margin-top: 20px;*/
+/*    padding-bottom: 20px;*/
+}
+
+.top_buttons {
+    width: 50px important;
+}
+
+.nav_top {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    font-size: 10px !important;
+    display: inline-block;
+    width: 180px;
+}
