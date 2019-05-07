@@ -3,7 +3,7 @@ This repo contains source code for application created using PhoneGap(Cordova). 
 
 - **Note: As this is a cordova project, it can be compiled for browser use, but I designed the interface for mobile so it will not feel the same and also the notification, toast and some warnings will not work on browser.**
 
-#### Check out the working project [here](http://jagtar.xyz/Cordova/)
+#### Check out the working project [here](http://jagtar.xyz/Cordova/) (To signin as manager, use email manager@gmail.com and password 'm123')
 
 **Technologies used** - HTML, CSS, JavaScript, SQLite, HTML5 Local Storage and this [plugin for notifications](https://github.com/katzer/cordova-plugin-local-notifications)
 ### Below is the summary of tasks I performed in this project
