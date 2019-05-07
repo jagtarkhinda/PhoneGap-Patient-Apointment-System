@@ -13,11 +13,8 @@ Develop an application for patients in a clinic using PhoneGap.
 
 #### Once a patient is registered in the database, the patient can:
 - [x] Book a time/date for an appointment.
-
 - [x] View the list of appointments.
-
 - [x] Change the time/date for the appointment, if possible.
-
 - [x] A reminder for the appointment 24 hours before the appointment.
 
 #### A manager of the clinic can:
